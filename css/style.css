@@ -157,29 +157,29 @@ main .input-search form button:hover{
     cursor: pointer;
 }
 
+
+
+
 main .button-list{
     margin-top: 3rem;
     margin-bottom: 3rem;
-    width: 100%;
-    height: 5rem; 
+    height: 4rem; 
     padding-left: 2rem;
-}
-main .button-list .lista{
-    width: 50rem;
-    height: 5rem;
     display: flex;
-    justify-content: center; 
-
+    justify-content: center;
 }
-main .button-list .lista div{
+
+main .button-list .div1{
+    background-color: #a2a9b1;
     height: 5rem;
-    width: 13rem;
-    padding: 1rem;
-    display: inline-block;
-    margin-top: 1rem;
+}
+main .button-list .div2{
+    background-color: aquamarine;
+    height: 5rem;
 }
 
-main .button-list .lista select{
+main .button-list .boton-center select{
+
     padding: 1rem;
     top: 2rem;
     height: 4rem;
@@ -190,6 +190,7 @@ main .button-list .lista select{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 hr{
     top: 1rem;
     margin: 1rem;
@@ -314,5 +315,22 @@ footer .other-proyect .tree-proyect .proyect a .txt .description{
     width: 100%;
     height: 3.8rem;
     color: #54595d;
+}
+
+footer .licencia{
+    height:2rem;
+    text-align: center;
+    color: #54595d;
+    font-size: 1.6rem;
+    width: 100%;
+}
+footer .licencia small{
+    padding-left: 1rem;
+}
+footer .licencia small a{
+    text-decoration: none;
+}
+footer .licencia small a:hover{
+    text-decoration: underline;
 }
 
