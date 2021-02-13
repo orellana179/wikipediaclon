@@ -205,9 +205,7 @@ footer{
     flex-flow: row;
     margin: 0 auto;
 }
-footer .aside{
-    width: 40%;
-}
+
 
 footer .aside .fundation{
     margin-bottom: 2rem;
@@ -227,7 +225,7 @@ footer .aside .fundation .icono-fundation img{
 footer .aside .fundation .desc-wiki{
     margin-top: 1rem;
     color: #54595d;
-    display: inline-block;
+    width: 70%;
 }
 
 
