@@ -202,35 +202,72 @@ footer{
     font-size: 1.4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    flex-flow: row;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+footer .aside{
+    width: 35%;
+    text-align: center;
+    padding-left: 5rem;
 }
 
-
-footer .aside .fundation{
-    margin-bottom: 2rem;
-
-}
-footer .aside .fundation .icono-fundation{
-    width: 4.2rem;
-    height: 4.2rem; 
+footer .aside .estilosDescription{
+    margin-left: 5rem;
+    color: #54595d;
     display: inline-block;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
 }
-footer .aside .fundation .icono-fundation img{
-    width: 100%;
+footer .aside .iconoWiki{
+    margin-top: 0.5rem;
+    width: 4rem;
+    height: 4rem; 
+    display: inline-block; 
+    position: absolute;
+}
+
+footer .aside .logoproyectos{
     height: 100%;
     border-radius: 50%;
     display: inline-block;
 }
-footer .aside .fundation .desc-wiki{
+footer .aside .logoDeWiki{
+    height: 100%;
+    display: inline-block;
+    border-radius: 0.4rem;
+    border: 0.15rem solid #d1d9df;
+    padding: 0.3rem;
+    background-color: white;
+}
+footer .aside .fundation{
+    margin-bottom: 2rem;
+    width: 90%;
+}
+footer .aside .descargawiki{
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+
+footer .aside p{
+    margin-bottom: 1rem;
+}
+footer .aside .descargawiki .tiendasApp{
+    width: 100%;
     margin-top: 1rem;
-    color: #54595d;
-    width: 70%;
+}
+footer .aside .descargawiki .tiendasApp .googleplay{
+    width: 12rem;
+    height: 4rem;
+    display: inline-block;
 }
 
 
 
 footer .other-proyect {
+    width: 65%;
     display: flex;
     flex-direction: column;
 }
@@ -241,7 +278,8 @@ footer .other-proyect .tree-proyect{
     justify-content: space-between;
 }
 footer .other-proyect .tree-proyect .proyect{
-    height: 9rem; 
+    height: 9rem;
+    width: 30%; 
     display: inline-block;
 }
 
@@ -250,9 +288,10 @@ footer .other-proyect .tree-proyect .proyect a{
     height: 100%;
 }
 footer .other-proyect .tree-proyect .proyect a figure{
-    width: 5rem;
-    height: 4.7rem;
+    width: 3.7rem;
+    height: 3.7rem;
     display: inline-block;
+    position: absolute;
 }
 footer .other-proyect .tree-proyect .proyect a figure img{
     width: 100%;
@@ -260,9 +299,9 @@ footer .other-proyect .tree-proyect .proyect a figure img{
 }
 footer .other-proyect .tree-proyect .proyect a .txt{
     display: inline-block;
-    width: 12.8rem;
+    width: 15rem;
     height: 5.9rem;
-    margin-left: 0.3rem;
+    margin-left: 4.5rem;
 }
 footer .other-proyect .tree-proyect .proyect a .txt .name{
     display: block;
