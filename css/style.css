@@ -169,13 +169,10 @@ main .button-list{
     justify-content: center;
 }
 
-main .button-list .div1{
-    background-color: #a2a9b1;
+main .button-list .div1{ 
     height: 5rem;
-}
-main .button-list .div2{
-    background-color: aquamarine;
-    height: 5rem;
+    width: 70%;
+    margin-top: 1rem;
 }
 
 main .button-list .boton-center select{
@@ -324,6 +321,7 @@ footer .licencia{
     font-size: 1.6rem;
     width: 100%;
 }
+
 footer .licencia small{
     padding-left: 1rem;
 }
